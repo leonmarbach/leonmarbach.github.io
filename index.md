@@ -2,122 +2,20 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+## Conference Presentations
 
-[Link to another page](./another-page.html).
+Marbach, L., & van Zanten, A. (November 2022). With a Little Help from my Family and Friends: Social and Contextual Variations in Personal Networks Influencing Higher Education Plans. ASHE 2022 Annual Meeting, Las Vegas, USA.
 
-There should be whitespace between paragraphs.
+Autric, E.,  Birolini, C, Chamboredon, A., Marbach, L., Olivier, A., & van Zanten, A. (April 2022). Contextual Determinants of Choice and Access to Medical Studies: An International Perspective. AERA 2022 Annual Meeting, San Diego, USA.
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+Marbach, L., & van Zanten, A. (September 2021). With a Little Help from my Family and my Friends: Social and Contextual Variations in Personal Configurations Influencing Higher Education Choices. British Educational Research Association. [Watch the presentation]
 
-# Header 1
+Marbach, L. (September 2021). Applying Text Mining to Study Inequalities of Access to Higher Education: Benefits and Pitfalls of an Innovative ‘Big Data’ Methodology. European Educational Research Association. [Watch the presentation]
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+Birolini, C., Chamboredon, A., Marbach, L., Olivier, A., & van Zanten, A. (September 2021). "Continue to Get Up Just Like When You Had Lessons": First-Year Medical Students' Socialization in France in the Context of the Covid-19 Pandemic. European Sociological Association.
 
-## Header 2
+Marbach, L., Olivier, A., & van Zanten, A. (September 2021). Applying Text-Mining to Explain Students' Educational and Professional Choices. European Sociological Association.
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+Marbach, L., Olivier, A., & van Zanten, A. (July 2021). Studying Socialization Through Text-Mining : An Analysis of Personal Statements of Applicants to Pre-Medical Studies in France. French Sociological Association Congress.
 
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+Birolini, C., Chamboredon, A., Marbach, L., Olivier, A., & van Zanten, A. (July 2021). The Role of Public and Private Intermediaries in the Implementation of the 2020 French Reform of Pre-Medical Studies. French Sociological Association Congress.

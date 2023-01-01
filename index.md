@@ -8,9 +8,9 @@ Marbach, L., & van Zanten, A. (November 2022). With a Little Help from my Family
 
 Autric, E.,  Birolini, C, Chamboredon, A., Marbach, L., Olivier, A., & van Zanten, A. (April 2022). Contextual Determinants of Choice and Access to Medical Studies: An International Perspective. AERA 2022 Annual Meeting, San Diego, USA.
 
-Marbach, L., & van Zanten, A. (September 2021). With a Little Help from my Family and my Friends: Social and Contextual Variations in Personal Configurations Influencing Higher Education Choices. British Educational Research Association. [Watch the presentation]
+Marbach, L., & van Zanten, A. (September 2021). With a Little Help from my Family and my Friends: Social and Contextual Variations in Personal Configurations Influencing Higher Education Choices. British Educational Research Association. [Watch the presentation](https://www.youtube.com/watch?v=5q2g0k4jAv4)
 
-Marbach, L. (September 2021). Applying Text Mining to Study Inequalities of Access to Higher Education: Benefits and Pitfalls of an Innovative ‘Big Data’ Methodology. European Educational Research Association. [Watch the presentation]
+Marbach, L. (September 2021). Applying Text Mining to Study Inequalities of Access to Higher Education: Benefits and Pitfalls of an Innovative ‘Big Data’ Methodology. European Educational Research Association. [Watch the presentation](https://www.youtube.com/watch?v=cgcsuuyrF38)
 
 Birolini, C., Chamboredon, A., Marbach, L., Olivier, A., & van Zanten, A. (September 2021). "Continue to Get Up Just Like When You Had Lessons": First-Year Medical Students' Socialization in France in the Context of the Covid-19 Pandemic. European Sociological Association.
 

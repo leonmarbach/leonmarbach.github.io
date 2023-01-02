@@ -20,8 +20,9 @@
         {% if site.logo %}
           <img src="{{site.logo | relative_url}}" alt="Logo" />
         {% endif %}
-
-        <h1><br>{{ site.title | default: site.github.repository_name }}</h1>
+        
+        <p class="view" style="color:black;"><br></p>
+        <h1>{{ site.title | default: site.github.repository_name }}</h1>
 
         <p class="view" style="color:black;">PhD student in Education Data Science<br>Stanford University</p>
 

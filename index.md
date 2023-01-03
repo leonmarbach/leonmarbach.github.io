@@ -2,6 +2,21 @@
 layout: default
 ---
 
-## About
+## Biography
 
-I am a first-year doctoral student in Education Data Science and EDGE fellow at Stanford University. My research focus lies at the intersection of natural language processing, sociology, and higher education. My advisors are [Dan McFarland](https://ed.stanford.edu/faculty/mcfarland) and [Mitchell Stevens](https://ed.stanford.edu/faculty/stevens4). Previously, I was a predoctoral researcher at the [Annenberg Institute](https://annenberg.brown.edu) at Brown University and at the [Laboratory for Interdisciplinary Evaluation of Public Policies](https://www.sciencespo.fr/liepp/en.html) at Sciences Po.
+I am a first-year PhD student in Education Data Science and EDGE fellow at Stanford University. My research interests lie at the intersection of natural language processing, sociology, and higher education. My advisors are [Dan McFarland](https://ed.stanford.edu/faculty/mcfarland) and [Mitchell Stevens](https://ed.stanford.edu/faculty/stevens4). Prior to my doctoral studies, I was a predoctoral researcher at the [Annenberg Institute](https://annenberg.brown.edu) at Brown University and at the [Laboratory for Interdisciplinary Evaluation of Public Policies](https://www.sciencespo.fr/liepp/en.html) at Sciences Po.
+
+## Manuscript in review
+
+* Léon Marbach, and Agnès van Zanten. "With a Little Help from my Family and Friends: Social Class and Contextual Variations on the Role of Personal Networks on Students' Higher Education Plans".
+
+## Conference presentations
+
+* Marbach, L., & van Zanten, A. (November 2022). With a Little Help from my Family and Friends: Social and Contextual Variations in Personal Networks Influencing Higher Education Plans. ASHE 2022 Annual Meeting, Las Vegas, USA.
+* Autric, E.,  Birolini, C, Chamboredon, A., Marbach, L., Olivier, A., & van Zanten, A. (April 2022). Contextual Determinants of Choice and Access to Medical Studies: An International Perspective. AERA 2022 Annual Meeting, San Diego, USA.
+* Marbach, L., & van Zanten, A. (September 2021). With a Little Help from my Family and my Friends: Social and Contextual Variations in Personal Configurations Influencing Higher Education Choices. British Educational Research Association. [Watch the presentation]
+* Marbach, L. (September 2021). Applying Text Mining to Study Inequalities of Access to Higher Education: Benefits and Pitfalls of an Innovative ‘Big Data’ Methodology. European Educational Research Association. [Watch the presentation]
+* Birolini, C., Chamboredon, A., Marbach, L., Olivier, A., & van Zanten, A. (September 2021). "Continue to Get Up Just Like When You Had Lessons": First-Year Medical Students' Socialization in France in the Context of the Covid-19 Pandemic. European Sociological Association.
+* Marbach, L., Olivier, A., & van Zanten, A. (September 2021). Applying Text-Mining to Explain Students' Educational and Professional Choices. European Sociological Association.
+* Marbach, L., Olivier, A., & van Zanten, A. (July 2021). Studying Socialization Through Text-Mining : An Analysis of Personal Statements of Applicants to Pre-Medical Studies in France. French Sociological Association Congress.
+* Birolini, C., Chamboredon, A., Marbach, L., Olivier, A., & van Zanten, A. (July 2021). The Role of Public and Private Intermediaries in the Implementation of the 2020 French Reform of Pre-Medical Studies. French Sociological Association Congress.

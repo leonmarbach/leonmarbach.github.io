@@ -2,6 +2,8 @@
 layout: default
 ---
 
+## About
+
 I am a second-year PhD student in Education Data Science at Stanford University. I am also an EDGE fellow and a McCoy Family Center for Ethics in Society fellow.
 
 ## Publications

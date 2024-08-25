@@ -4,7 +4,7 @@ layout: default
 
 I am a second-year PhD student in Education Data Science at Stanford University. I am also an EDGE fellow and a McCoy Family Center for Ethics in Society fellow.
 
-## Publication
+## Publications
 
 Marbach, L., & van Zanten, A. (2024). Logique cumulative ou logique compensatoire ? L'encastrement des choix d'études supérieures dans des réseaux familiaux et amicaux. In P. Bernard, C. Michault & J. Resnik (Eds.), *Les nouvelles politiques scolaires. En hommage à Yves Dutercq* (pp. 125-138). Presses Universitaires de Rennes.
 

@@ -2,3 +2,24 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+.publications summary {
+  cursor: pointer;
+  list-style: none;
+  font-size: 24px;
+  font-weight: bold;
+  color: #222;
+  margin-bottom: 20px;
+}
+
+.publications summary::-webkit-details-marker {
+  display: none;
+}
+
+.publications summary::before {
+  content: "+ ";
+}
+
+.publications[open] summary::before {
+  content: "− ";
+}

@@ -4,7 +4,7 @@ layout: default
 
 ## About
 
-I am a third-year PhD student in Education Data Science and Data Science Scholar at Stanford University. I am also an EDGE fellow and a McCoy Family Center for Ethics in Society fellow.
+I am a fifth-year PhD student in Education Data Science and Data Science Scholar at Stanford University. I am also an EDGE fellow and a McCoy Family Center for Ethics in Society fellow.
 
 ## Publications
 
@@ -16,22 +16,22 @@ Marbach, L., & van Zanten, A. (2024). With a little help from my family and frie
 
 Stanford University
 
-Organizational Analysis (EDUC 288)  
+*Organizational Analysis (EDUC 288)*  
 Teaching Assistant · Fall 2026 · Instructor: Mitchell Stevens
 
-Introduction to Science, Technology, and Society (STS 1)  
+*Introduction to Science, Technology, and Society (STS 1)*  
 Teaching Assistant · Winter 2026 · Instructors: Nicole Martinez and Thomas Mullaney
 
-Technology, Agency, and Power (STS 200D)  
+*Technology, Agency, and Power (STS 200D)*  
 Teaching Assistant · Fall 2025 · Instructor: Anna-Katharina Ferl
 
-The Politics of Algorithms (COMM 154)  
+*The Politics of Algorithms (COMM 154)*  
 Teaching Assistant · Winter 2025 · Instructor: Angèle Christin
 
-Graduate School of Education Proseminar 1 (EDUC 325A)  
+*Graduate School of Education Proseminar 1 (EDUC 325A)*  
 Teaching Assistant · Fall 2024 · Instructors: Guilherme Lichand and Mitchell Stevens
 
-Graduate School of Education Math Camp  
+*Graduate School of Education Math Camp*  
 Main Instructor · Summer 2023
 
 Last updated: 10/10/2026

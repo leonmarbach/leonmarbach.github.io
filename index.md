@@ -14,17 +14,26 @@ Marbach, L., & van Zanten, A. (2024). With a little help from my family and frie
 
 ## Teaching
 
-**Organizational Analysis (EDUC 288)** — Teaching Assistant, Prof. Mitchell Stevens, Stanford University, Fall 2026.
+## Teaching
 
-**Introduction to Science, Technology, and Society (STS 1)** — Teaching Assistant, Prof. Nicole Martinez and Thomas Mullaney, Stanford University, Winter 2026.
+Stanford University
 
-**Technology, Agency, and Power (STS 200D)** — Teaching Assistant, Prof. Anna-Katharina Ferl, Stanford University, Fall 2025.
+Organizational Analysis (EDUC 288)  
+Teaching Assistant · Fall 2026 · Instructor: Mitchell Stevens
 
-**The Politics of Algorithms (COMM 154)** — Teaching Assistant, Prof. Angèle Christin, Stanford University, Winter 2025.
+Introduction to Science, Technology, and Society (STS 1)  
+Teaching Assistant · Winter 2026 · Instructors: Nicole Martinez and Thomas Mullaney
 
-**Graduate School of Education Proseminar 1 (EDUC 325A)** — Teaching Assistant, Prof. Guilherme Lichand and Mitchell Stevens, Stanford University, Fall 2024.
+Technology, Agency, and Power (STS 200D)  
+Teaching Assistant · Fall 2025 · Instructor: Anna-Katharina Ferl
 
-**Graduate School of Education Math Camp** — Main Instructor, Stanford University, Summer 2023.
+The Politics of Algorithms (COMM 154)  
+Teaching Assistant · Winter 2025 · Instructor: Angèle Christin
 
+Graduate School of Education Proseminar 1 (EDUC 325A)  
+Teaching Assistant · Fall 2024 · Instructors: Guilherme Lichand and Mitchell Stevens
+
+Graduate School of Education Math Camp  
+Main Instructor · Summer 2023
 
 Last updated: 10/10/2026

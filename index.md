@@ -8,7 +8,7 @@ I am a PhD candidate in Education Data Science at Stanford University.
 
 I am fortunate to be advised by [Mitchell Stevens](https://ed.stanford.edu/faculty/stevens4), [Sarah Brayne](https://www.sarahbrayne.com), [Angèle Christin](https://www.angelechristin.com), and [Ben Domingue](https://ed.stanford.edu/faculty/bdomingu).
 
-My research has been generously supported by the [Stanford Institute for Human-Centered AI (HAI)](https://hai.stanford.edu/about/people?filterBy=graduate-fellows&self=true), the [McCoy Family Center for Ethics in Society](https://ethicsinsociety.stanford.edu), the [Scandinavian Consortium for Organizational Research (SCANCOR)](https://scancor.org/), the Stanford Enhancing Diversity in Graduate Education Doctoral fellowship, and the Stanford Emerging Scholars Network fellowship.
+My research has been supported by [Stanford HAI](https://hai.stanford.edu/about/people?filterBy=graduate-fellows&self=true), the [McCoy Family Center for Ethics in Society](https://ethicsinsociety.stanford.edu), [SCANCOR](https://scancor.org/), the Stanford EDGE fellowship, and the Stanford ESN fellowship.
 
 ## Publications
 

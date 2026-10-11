@@ -6,6 +6,26 @@ layout: default
 
 I am a third-year PhD student in Education Data Science and Data Science Scholar at Stanford University. I am also an EDGE fellow and a McCoy Family Center for Ethics in Society fellow.
 
+I am a third-year PhD student in Education Data Science and Data Science Scholar at Stanford University. I am also an EDGE fellow and a McCoy Family Center for Ethics in Society fellow.
+
+I am a third-year PhD student in Education Data Science and Data Science Scholar at Stanford University. I am also an EDGE fellow and a McCoy Family Center for Ethics in Society fellow.
+
+I am a third-year PhD student in Education Data Science and Data Science Scholar at Stanford University. I am also an EDGE fellow and a McCoy Family Center for Ethics in Society fellow.
+
+I am a third-year PhD student in Education Data Science and Data Science Scholar at Stanford University. I am also an EDGE fellow and a McCoy Family Center for Ethics in Society fellow.
+
+I am a third-year PhD student in Education Data Science and Data Science Scholar at Stanford University. I am also an EDGE fellow and a McCoy Family Center for Ethics in Society fellow.
+
+I am a third-year PhD student in Education Data Science and Data Science Scholar at Stanford University. I am also an EDGE fellow and a McCoy Family Center for Ethics in Society fellow.
+
+I am a third-year PhD student in Education Data Science and Data Science Scholar at Stanford University. I am also an EDGE fellow and a McCoy Family Center for Ethics in Society fellow.
+
+I am a third-year PhD student in Education Data Science and Data Science Scholar at Stanford University. I am also an EDGE fellow and a McCoy Family Center for Ethics in Society fellow.
+
+I am a third-year PhD student in Education Data Science and Data Science Scholar at Stanford University. I am also an EDGE fellow and a McCoy Family Center for Ethics in Society fellow.
+
+I am a third-year PhD student in Education Data Science and Data Science Scholar at Stanford University. I am also an EDGE fellow and a McCoy Family Center for Ethics in Society fellow.
+
 <details class="publications" markdown="1">
 <summary>Publications</summary>
 

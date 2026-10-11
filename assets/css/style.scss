@@ -2,3 +2,31 @@
 ---
 
 @import "jekyll-theme-minimal";
+
+.data-network {
+  position: fixed;
+  top: 0;
+  height: 100vh;
+  pointer-events: none;
+  opacity: 0.7;
+  z-index: 0;
+}
+
+.data-network-left {
+  left: 0;
+}
+
+.data-network-right {
+  right: 0;
+}
+
+.wrapper {
+  position: relative;
+  z-index: 1;
+}
+
+@media screen and (max-width: 1100px) {
+  .data-network {
+    display: none;
+  }
+}

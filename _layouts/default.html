@@ -1,46 +1,191 @@
 <!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
+<html lang="{{ site.lang | default: 'en-US' }}">
   <head>
     <title>Léon Marbach</title>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-{% seo %}
-    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
-    <![endif]-->
+    {% seo %}
+    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
     {% include head-custom.html %}
   </head>
+
   <body>
+    <canvas class="data-network data-network-left" aria-hidden="true"></canvas>
+    <canvas class="data-network data-network-right" aria-hidden="true"></canvas>
+
     <div class="wrapper">
       <header>
-        
         <h1>{{ site.title | default: site.github.repository_name }}</h1>
-         
+
         {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
+          <img src="{{ site.logo | relative_url }}" alt="Léon Marbach">
         {% endif %}
 
-        <p class="view" style="color:black;"><br>PhD candidate in Education Data Science<br>Stanford University</p>
-        
-        <p class="view" style="color:black;"><a href="https://www.youtube.com/watch?v=TChsALKmzEk">How to pronounce my name</a></p>
-        
-	      <p class="view"> <a href="mailto:lmarbach@stanford.edu">lmarbach@stanford.edu</a></p>
-	      
+        <p class="view" style="color:black;">
+          <br>PhD candidate in Education Data Science
+          <br>Stanford University
+        </p>
+
+        <p class="view">
+          <a href="https://www.youtube.com/watch?v=TChsALKmzEk">
+            How to pronounce my name
+          </a>
+        </p>
+
+        <p class="view">
+          <a href="mailto:lmarbach@stanford.edu">lmarbach@stanford.edu</a>
+        </p>
       </header>
+
       <section>
-
-      {{ content }}
-
+        {{ content }}
       </section>
+
       <footer>
         {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+          <p>
+            This project is maintained by
+            <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>
+          </p>
         {% endif %}
       </footer>
     </div>
-    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+
+    <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
+
+    <script>
+      (() => {
+        const wrapper = document.querySelector(".wrapper");
+        const narrowScreen = window.matchMedia("(max-width: 1100px)");
+        const reducedMotion = window.matchMedia(
+          "(prefers-reduced-motion: reduce)"
+        );
+
+        const networks = Array.from(
+          document.querySelectorAll(".data-network")
+        ).map(canvas => ({
+          canvas,
+          ctx: canvas.getContext("2d"),
+          width: 0,
+          height: 0,
+          nodes: []
+        })).filter(network => network.ctx);
+
+        let frame;
+        let previousTime;
+
+        function resize() {
+          const bounds = wrapper.getBoundingClientRect();
+          const gap = 35;
+          const widths = [
+            Math.max(0, bounds.left - gap),
+            Math.max(0, window.innerWidth - bounds.right - gap)
+          ];
+          const pixelRatio = Math.min(window.devicePixelRatio || 1, 2);
+
+          networks.forEach((network, index) => {
+            const { canvas, ctx } = network;
+            network.width = widths[index];
+            network.height = window.innerHeight;
+
+            canvas.style.width = network.width + "px";
+            canvas.style.height = network.height + "px";
+            canvas.width = Math.round(network.width * pixelRatio);
+            canvas.height = Math.round(network.height * pixelRatio);
+            ctx.setTransform(pixelRatio, 0, 0, pixelRatio, 0, 0);
+
+            const count = Math.min(
+              45,
+              Math.round(network.width * network.height / 9000)
+            );
+
+            network.nodes = Array.from({ length: count }, () => ({
+              x: Math.random() * network.width,
+              y: Math.random() * network.height,
+              vx: (Math.random() - 0.5) * 7,
+              vy: (Math.random() - 0.5) * 7,
+              blue: Math.random() < 0.18
+            }));
+          });
+        }
+
+        function draw(seconds) {
+          networks.forEach(({ ctx, width, height, nodes }) => {
+            ctx.clearRect(0, 0, width, height);
+
+            nodes.forEach(node => {
+              node.x += node.vx * seconds;
+              node.y += node.vy * seconds;
+
+              if (node.x < 0 || node.x > width) node.vx *= -1;
+              if (node.y < 0 || node.y > height) node.vy *= -1;
+
+              node.x = Math.max(0, Math.min(width, node.x));
+              node.y = Math.max(0, Math.min(height, node.y));
+            });
+
+            for (let i = 0; i < nodes.length; i++) {
+              for (let j = i + 1; j < nodes.length; j++) {
+                const distance = Math.hypot(
+                  nodes[i].x - nodes[j].x,
+                  nodes[i].y - nodes[j].y
+                );
+
+                if (distance < 115) {
+                  const opacity = (1 - distance / 115) * 0.22;
+                  ctx.strokeStyle = `rgba(105, 125, 140, ${opacity})`;
+                  ctx.lineWidth = 0.7;
+                  ctx.beginPath();
+                  ctx.moveTo(nodes[i].x, nodes[i].y);
+                  ctx.lineTo(nodes[j].x, nodes[j].y);
+                  ctx.stroke();
+                }
+              }
+            }
+
+            nodes.forEach(node => {
+              ctx.fillStyle = node.blue
+                ? "rgba(38, 124, 160, 0.55)"
+                : "rgba(120, 135, 145, 0.4)";
+              ctx.beginPath();
+              ctx.arc(node.x, node.y, node.blue ? 2.2 : 1.6, 0, Math.PI * 2);
+              ctx.fill();
+            });
+          });
+        }
+
+        function animate(time) {
+          const seconds = previousTime === undefined
+            ? 0
+            : Math.min((time - previousTime) / 1000, 0.05);
+          previousTime = time;
+          draw(seconds);
+          frame = requestAnimationFrame(animate);
+        }
+
+        function refresh() {
+          cancelAnimationFrame(frame);
+          previousTime = undefined;
+
+          if (narrowScreen.matches) return;
+
+          resize();
+          draw(0);
+
+          if (!reducedMotion.matches && !document.hidden) {
+            frame = requestAnimationFrame(animate);
+          }
+        }
+
+        window.addEventListener("resize", refresh);
+        narrowScreen.addEventListener("change", refresh);
+        reducedMotion.addEventListener("change", refresh);
+        document.addEventListener("visibilitychange", refresh);
+
+        refresh();
+      })();
+    </script>
   </body>
 </html>

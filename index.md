@@ -8,7 +8,7 @@ I am a sociologist and PhD candidate in Education Data Science at Stanford Unive
 
 I am advised by [Mitchell Stevens](https://ed.stanford.edu/faculty/stevens4), [Sarah Brayne](https://www.sarahbrayne.com), [Angèle Christin](https://www.angelechristin.com), and [Ben Domingue](https://ed.stanford.edu/faculty/bdomingu). I also work with [Agnès van Zanten](https://www.sciencespo.fr/cris/en/directory/vanzanten-agnes/).
 
-My research has been supported by [Stanford HAI](https://hai.stanford.edu/about/people?filterBy=graduate-fellows&self=true), the [McCoy Family Center for Ethics in Society](https://ethicsinsociety.stanford.edu), [SCANCOR](https://scancor.org/), the Stanford's EDGE and ESN fellowships.
+My research has been supported by [Stanford HAI](https://hai.stanford.edu/about/people?filterBy=graduate-fellows&self=true), the [McCoy Family Center for Ethics in Society](https://ethicsinsociety.stanford.edu), [SCANCOR](https://scancor.org/), and Stanford's EDGE and ESN fellowships.
 
 I grew up in France and hold a BA in Social Sciences and an MA in Public Policy from Sciences Po, a BS in Applied Mathematics and Computer Science from Paris 1 Panthéon-Sorbonne University, and an MS in Statistics from Stanford University.
 

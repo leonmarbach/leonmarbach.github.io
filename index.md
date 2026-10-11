@@ -14,8 +14,6 @@ Marbach, L., & van Zanten, A. (2024). With a little help from my family and frie
 
 ## Teaching
 
-## Teaching
-
 Stanford University
 
 Organizational Analysis (EDUC 288)  
